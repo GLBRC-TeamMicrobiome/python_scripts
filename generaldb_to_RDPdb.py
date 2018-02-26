@@ -1,13 +1,13 @@
-################################################################################
-#	Written by Natalie Vande Pol											   #
-#	Jun 13, 2016															   #
-#																			   #
-#	*   command line: python generaldb_to_RDP.py [path/filename(s)]	   		   #
-#	*   accepts unlimited reference database files and converts them to fasta  #
-#		and taxonomy files in the RDP format								   #
-#	*   output files written to original file locations, the initial filenames #
-#		appended "__RDP.fasta" and "__RDP_taxonomy.txt"						   #
-################################################################################
+########################################################################################################
+#	Written by Natalie Vande Pol						                       #
+#	Jun 13, 2016						   				       #
+#												       #
+#	*   command line: python generaldb_to_RDP.py [path/filename(s)]	   		               #
+#	*   accepts unlimited reference database files and converts them to fasta                      #
+#		and taxonomy files in the RDP format					               #
+#	*   output files written to original file locations, the initial filenames                     #
+#		appended "__RDP.fasta" and "__RDP_taxonomy.txt"					       #
+########################################################################################################
 
 import sys, os
 
